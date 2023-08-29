@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-node-driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obaidmuneer/mongodb-node-driver.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obaidmuneer/mongodb-node-driver/issues"
+  },
+  "homepage": "https://github.com/obaidmuneer/mongodb-node-driver#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.0.0"
+  }
+}
