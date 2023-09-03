@@ -8,7 +8,7 @@ const findAll = async () => {
     console.log(res);
     return res
 }
-findAll()
+// findAll()
 
 const findByQuery = async () => {
     // https://www.mongodb.com/docs/manual/reference/operator
@@ -88,6 +88,9 @@ const deleteMany = async () => {
     console.log(res);
     return res
 }
+
+// https://www.mongodb.com/docs/manual/core/data-modeling-introduction/
+// https://www.mongodb.com/docs/manual/core/schema-validation/specify-json-schema/
 
 (async () => {
     // await findAll()
